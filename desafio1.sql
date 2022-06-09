@@ -32,7 +32,7 @@ CREATE TABLE SpotifyClone.usuarios (
      FOREIGN KEY (plano_id) REFERENCES planos(plano_id)
 );
  INSERT INTO SpotifyClone.usuarios(nome_do_usuario, idade_do_usuario, data_da_assinatura, plano_id) 
- VALUES ('Thati', '23', '2019-10-20', 1), ('CINTia', '35', '2017-12-30', 2), 
+ VALUES ('Thati', '23', '2019-10-20', 1), ('Cintia', '35', '2017-12-30', 2), 
  ('Bill', '20', '2019-06-05', 3), ('Roger', '45', '2020-05-13', 4), 
  ('Norman', '58', '2017-02-17', 4), ('Patrick', '33', '2017-01-06', 2), 
  ('Vivian', '26', '2018-01-05', 3), ('Carol', '19', '2018-02-14', 3), 
